@@ -1,0 +1,18 @@
+{
+    "pluginAlias": "BeurerLight",
+    "pluginType": "platform",
+    "singular": true,
+    "headerDisplay": "This plugin discovers and controls Beurer TL100 SAD lamps via Bluetooth LE. Make sure your Homebridge host has Bluetooth capability.",
+    "footerDisplay": "For help, see the [GitHub repository](https://github.com/eu-evops/homebridge-beurer-light).",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Platform Name",
+                "type": "string",
+                "default": "BeurerLight",
+                "required": true
+            }
+        }
+    }
+}
